@@ -1,0 +1,31 @@
+export enum ERROR_CODE {
+  OK = 200,
+  BAD_REQUEST = 400,
+  UNAUTHORIZED = 401,
+  FORBIDDEN = 403,
+  NOT_FOUND = 404,
+  LEGALS_REASON = 451,
+  INTERNAL_SERVER = 500,
+}
+
+export enum ERRORS {
+  ALREADY_LOGGED_IN = 'You are already logged in',
+  BAD_ENDPOINT = 'Bad endpoint',
+  CONFIRMATION_CODE_EXPIRED = 'Confirmation code is expired',
+  CONFIRMATION_CODE_NOT_VALID = 'Confirmation code is not valid',
+  EMAIL_ALREADY_EXISTS = 'User with this email already exists',
+  INCORRECT_PASSWORD = 'Incorrect password',
+  INVALID_EMAIL = 'Invalid email',
+  INVALID_EMAIL_OR_PASSWORD = 'Invalid email or password',
+  INVALID_ID = 'Invalid ID',
+  NEED_TO_ACCEPT_TERMS = 'You need to accept the terms of service',
+  NEED_TO_LOGIN = 'You need to log in',
+  PERMISSION_DENIED = 'Permission denied',
+  USER_NOT_FOUND = 'User not found',
+  LACK_OF_FUNDS = 'Lack of funds',
+  INVALID_DATE = 'Invalid date',
+  INVALID_MEDIA_TYPE = 'Invalid media type',
+  INVALID_FORM_DATA = 'Invalid form-data value',
+  MEDIA_SIZE_TOO_LARGE = 'Media file size too large',
+  INSUFFICIENT_STORAGE = 'Insufficient Storage',
+}

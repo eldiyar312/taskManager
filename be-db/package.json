@@ -1,0 +1,10 @@
+{
+  "name": "be-db",
+  "version": "0.0.1",
+  "description": "Development database",
+  "private": true,
+  "scripts": {
+    "start": "mongod --dbpath ./data --bind_ip localhost --ipv6",
+    "start:windows": "C:\\mongodb\\bin\\mongod --dbpath ./data --bind_ip localhost --ipv6"
+  }
+}

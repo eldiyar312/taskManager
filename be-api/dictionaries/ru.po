@@ -1,0 +1,129 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.0.1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"POT-Creation-Date: 2023-02-02T00:00:00.000Z\n"
+"PO-Revision-Date: 2023-02-02T00:00:00.000Z\n"
+
+msgctxt "base"
+msgid "services.notifications.email.attachments"
+msgstr "Вложения: ${text}"
+
+msgctxt "base"
+msgid "services.notifications.email.changeEmail.text1"
+msgstr ""
+"Была предпринята попытка изменить адрес электронной почты в вашей учетной "
+"записи!"
+
+msgctxt "base"
+msgid "services.notifications.email.changeEmail.text2.0"
+msgstr ""
+"Чтобы завершить процесс изменения адреса электронной почты, перейдите по "
+"ссылке: {link}"
+
+msgctxt "base"
+msgid "services.notifications.email.changeEmail.text2.1"
+msgstr "Чтобы завершить процесс изменения адреса электронной почты, {link}."
+
+msgctxt "base"
+msgid "services.notifications.email.changeEmail.text2.2"
+msgstr "нажмите сюда"
+
+msgctxt "base"
+msgid "services.notifications.email.changeEmail.title"
+msgstr "Пожалуйста, подтвердите новый адрес электронной почты"
+
+msgctxt "base"
+msgid "services.notifications.email.changePassword.text1"
+msgstr "Вы получили это письмо, так как изменили пароль для входа в Template."
+
+msgctxt "base"
+msgid "services.notifications.email.changePassword.text2"
+msgstr "Если это были не вы, свяжитесь со службой поддержки: {email}."
+
+msgctxt "base"
+msgid "services.notifications.email.changePassword.text3"
+msgstr "Если это были вы, ничего делать не нужно."
+
+msgctxt "base"
+msgid "services.notifications.email.changePassword.title"
+msgstr "Ваш пароль был изменён"
+
+msgctxt "base"
+msgid "services.notifications.email.changed.text"
+msgstr "На вашем аккаунте был изменен адрес email. С {oldEmail} на {newEmail}"
+
+msgctxt "base"
+msgid "services.notifications.email.changed.title"
+msgstr "Ваша почта была изменена"
+
+msgctxt "base"
+msgid "services.notifications.email.forgotPassword.text1"
+msgstr ""
+"Вы получили это письмо, так как запросили восстановление пароля для входа в "
+"Template"
+
+msgctxt "base"
+msgid "services.notifications.email.forgotPassword.text2.0"
+msgstr "Перейдите по ссылке, чтобы задать себе новый пароль: {link}"
+
+msgctxt "base"
+msgid "services.notifications.email.forgotPassword.text2.1"
+msgstr "{link}, чтобы задать себе новый пароль."
+
+msgctxt "base"
+msgid "services.notifications.email.forgotPassword.text2.2"
+msgstr "Нажмите сюда"
+
+msgctxt "base"
+msgid "services.notifications.email.forgotPassword.text3"
+msgstr "Если это были не вы, просто проигнорируйте данное письмо."
+
+msgctxt "base"
+msgid "services.notifications.email.forgotPassword.title"
+msgstr "Восстановление пароля"
+
+msgctxt "base"
+msgid "services.notifications.email.forgotPasswordChange.text1"
+msgstr ""
+"Вы получили это письмо, так как прошли процедуру восстановления и смены "
+"пароля для входа в Template"
+
+msgctxt "base"
+msgid "services.notifications.email.forgotPasswordChange.text2"
+msgstr "Если это были не вы, свяжитесь со службой поддержки: {email}"
+
+msgctxt "base"
+msgid "services.notifications.email.forgotPasswordChange.text3"
+msgstr "Если это были вы, ничего делать не нужно."
+
+msgctxt "base"
+msgid "services.notifications.email.forgotPasswordChange.title"
+msgstr "Ваш пароль был изменен"
+
+msgctxt "base"
+msgid "services.notifications.email.regards"
+msgstr "С уважением,{br}Template"
+
+msgctxt "base"
+msgid "services.notifications.email.signUpEmail.text1"
+msgstr "Благодарим вас за регистрацию!"
+
+msgctxt "base"
+msgid "services.notifications.email.signUpEmail.text2.0"
+msgstr "Чтобы завершить процесс регистрации, перейдите по ссылке: {link}"
+
+msgctxt "base"
+msgid "services.notifications.email.signUpEmail.text2.1"
+msgstr "Чтобы завершить процесс регистрации, {link}."
+
+msgctxt "base"
+msgid "services.notifications.email.signUpEmail.text2.2"
+msgstr "нажмите сюда"
+
+msgctxt "base"
+msgid "services.notifications.email.signUpEmail.title"
+msgstr "Пожалуйста, подтвердите свой адрес электронной почты"

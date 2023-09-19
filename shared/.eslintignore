@@ -1,0 +1,14 @@
+# dependencies
+build/
+node_modules/
+/.pnp
+.pnp.js
+*.d.ts
+
+# misc
+.DS_Store
+
+yarn-debug.log*
+yarn-error.log*
+
+typings

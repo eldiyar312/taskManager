@@ -1,0 +1,24 @@
+import { ColorItem, ColorPalette, Meta } from '@storybook/addon-docs';
+
+<Meta title="Global/Colors" />
+
+<ColorPalette>
+  {Object.entries({
+    '--darkRed-1': '#444444',
+    '--white-1': '#e6e6e6',
+    '--white-2': '#ffffff',
+    '--lightGreen-1': '#a9aaa9',
+    '--white-3': '#ebebeb',
+    '--white-4': '#f7f6f6',
+    '--lightRed-1': '#bebebe',
+    '--lightRed-2': '#ea4335',
+    '--blue-1': '#3b5998',
+  }).map(([key, value]) => (
+    <ColorItem
+      colors={[value]}
+      key={key}
+      title={key.substring(2, key.length - 5)}
+      subtitle={`var(${key})`}
+    />
+  ))}
+</ColorPalette>

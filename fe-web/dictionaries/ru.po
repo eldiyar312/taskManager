@@ -1,0 +1,271 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.0.1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"POT-Creation-Date: 2023-01-21T00:00:00.000Z\n"
+"PO-Revision-Date: 2023-01-21T00:00:00.000Z\n"
+
+msgctxt "base"
+msgid "components.organisms.Header.app"
+msgstr "Кабинет"
+
+msgctxt "base"
+msgid "components.organisms.Header.signIn"
+msgstr "Вход"
+
+msgctxt "base"
+msgid "components.organisms.Header.signOut"
+msgstr "Выход"
+
+msgctxt "base"
+msgid "components.organisms.SocialButtons.facebook"
+msgstr "Facebook"
+
+msgctxt "base"
+msgid "components.organisms.SocialButtons.google"
+msgstr "Google"
+
+msgctxt "base"
+msgid "components.organisms.forms.ConfirmEmailForm.continue"
+msgstr "Продолжить"
+
+msgctxt "base"
+msgid "components.organisms.forms.ConfirmEmailForm.placeholderCode"
+msgstr "Код"
+
+msgctxt "base"
+msgid "components.organisms.forms.ForgotPasswordChangeForm.continue"
+msgstr "Продолжить"
+
+msgctxt "base"
+msgid "components.organisms.forms.ForgotPasswordChangeForm.placeholderPassword"
+msgstr "Пароль"
+
+msgctxt "base"
+msgid "components.organisms.forms.ForgotPasswordForm.placeholderEmail"
+msgstr "Email"
+
+msgctxt "base"
+msgid "components.organisms.forms.ForgotPasswordForm.send"
+msgstr "Отправить"
+
+msgctxt "base"
+msgid "components.organisms.forms.SignInEmailForm.placeholderEmail"
+msgstr "Email"
+
+msgctxt "base"
+msgid "components.organisms.forms.SignInEmailForm.placeholderPassword"
+msgstr "Пароль"
+
+msgctxt "base"
+msgid "components.organisms.forms.SignInEmailForm.signIn"
+msgstr "Войти"
+
+msgctxt "base"
+msgid "components.organisms.forms.SignUpEmailForm.placeholderEmail"
+msgstr "Email"
+
+msgctxt "base"
+msgid "components.organisms.forms.SignUpEmailForm.placeholderPassword"
+msgstr "Пароль"
+
+msgctxt "base"
+msgid "components.organisms.forms.SignUpEmailForm.placeholderRole"
+msgstr "Роль"
+
+msgctxt "base"
+msgid "components.organisms.forms.SignUpEmailForm.signUp"
+msgstr "Зарегистироваться"
+
+msgctxt "base"
+msgid "components.routes.modals.ConfirmEmail.sendAgain"
+msgstr "Отправить код повторно"
+
+msgctxt "base"
+msgid "components.routes.modals.ConfirmEmail.text"
+msgstr "Введите код"
+
+msgctxt "base"
+msgid "components.routes.modals.ConfirmEmail.title"
+msgstr "Подтверждение адреса электронной почты"
+
+msgctxt "base"
+msgid "components.routes.modals.ForgotPassword.remember"
+msgstr "Войти"
+
+msgctxt "base"
+msgid "components.routes.modals.ForgotPassword.text"
+msgstr ""
+"Если вы забыли пароль, укажите ваш email в форме ниже, и мы пришлем вам "
+"инструкции по восстановлению доступа"
+
+msgctxt "base"
+msgid "components.routes.modals.ForgotPassword.title"
+msgstr "Забыл пароль"
+
+msgctxt "base"
+msgid "components.routes.modals.ForgotPasswordChange.continue"
+msgstr "Продолжить"
+
+msgctxt "base"
+msgid "components.routes.modals.ForgotPasswordChange.text"
+msgstr "Введите новый пароль"
+
+msgctxt "base"
+msgid "components.routes.modals.ForgotPasswordChange.title"
+msgstr "Изменение пароля"
+
+msgctxt "base"
+msgid "components.routes.modals.Profile.TabTitleInfo"
+msgstr "Информация"
+
+msgctxt "base"
+msgid "components.routes.modals.Profile.TabTitleSettings"
+msgstr "Настройки"
+
+msgctxt "base"
+msgid "components.routes.modals.Profile.title"
+msgstr "Мой профиль"
+
+msgctxt "base"
+msgid "components.routes.modals.ProfileId.title"
+msgstr "Профиль"
+
+msgctxt "base"
+msgid "components.routes.modals.SignInEmail.forgotPassword"
+msgstr "Забыли пароль?"
+
+msgctxt "base"
+msgid "components.routes.modals.SignInEmail.register"
+msgstr "Регистрация"
+
+msgctxt "base"
+msgid "components.routes.modals.SignInEmail.signIn"
+msgstr "Войти через"
+
+msgctxt "base"
+msgid "components.routes.modals.SignInEmail.title"
+msgstr "Вход"
+
+msgctxt "base"
+msgid "components.routes.modals.SignUpEmail.isExist"
+msgstr "Уже есть аккаунт?"
+
+msgctxt "base"
+msgid "components.routes.modals.SignUpEmail.register"
+msgstr "Зарегистироваться через"
+
+msgctxt "base"
+msgid "components.routes.modals.SignUpEmail.title"
+msgstr "Регистрация"
+
+msgctxt "base"
+msgid "components.routes.pages.App.title"
+msgstr "Template"
+
+msgctxt "base"
+msgid "components.routes.pages.Error404.text"
+msgstr "Страница не найдена"
+
+msgctxt "base"
+msgid "components.routes.pages.Error404.title"
+msgstr "404"
+
+msgctxt "base"
+msgid "components.routes.pages.Root.title"
+msgstr "Template"
+
+msgctxt "events"
+msgid "error.confirmationCode.expired"
+msgstr "Код подтверждения устарел"
+
+msgctxt "events"
+msgid "error.confirmationCode.notValid"
+msgstr "Неверный код подтверждения"
+
+msgctxt "events"
+msgid "error.email.alreadyExists"
+msgstr "Пользователь с таким email уже существует"
+
+msgctxt "events"
+msgid "error.email.minLength"
+msgstr "Email слишком короткий"
+
+msgctxt "events"
+msgid "error.email.notValid"
+msgstr "Неверный email"
+
+msgctxt "events"
+msgid "error.email.wrongFormat"
+msgstr "Неверный формат электронной почты"
+
+msgctxt "events"
+msgid "error.emailOrPassword.notValid"
+msgstr "Неверный email или пароль"
+
+msgctxt "events"
+msgid "error.endpoint.invalidId"
+msgstr "Неверный id"
+
+msgctxt "events"
+msgid "error.endpoint.notValid"
+msgstr "Эндпоинт настроен некорректно"
+
+msgctxt "events"
+msgid "error.field.required"
+msgstr "Это поле является обязательным"
+
+msgctxt "events"
+msgid "error.login.alreadyLoggedIn"
+msgstr "Вы уже авторизованы"
+
+msgctxt "events"
+msgid "error.login.need"
+msgstr "Сначала необходимо авторизоваться"
+
+msgctxt "events"
+msgid "error.media.insufficientStorage"
+msgstr "недостаточно места для хранения"
+
+msgctxt "events"
+msgid "error.media.invalidFormData"
+msgstr "Не верные данные формы"
+
+msgctxt "events"
+msgid "error.media.invalidType"
+msgstr "Не верный тип файла"
+
+msgctxt "events"
+msgid "error.media.sizeTooLarge"
+msgstr "Размер файла слишком большой"
+
+msgctxt "events"
+msgid "error.password.minLength"
+msgstr "Пароль слишком короткий"
+
+msgctxt "events"
+msgid "error.password.notValid"
+msgstr "Неверный пароль"
+
+msgctxt "events"
+msgid "error.permissionDenied"
+msgstr "Доступ запрещен"
+
+msgctxt "events"
+msgid "error.terms.needToAccept"
+msgstr "Вам необходимо принять условия обслуживания"
+
+msgctxt "events"
+msgid "error.user.invalidDate"
+msgstr "Неверная дата"
+
+msgctxt "events"
+msgid "error.user.lackOfFunds"
+msgstr "Недостаточно средств"
+
+msgctxt "events"
+msgid "error.user.notFound"
+msgstr "Пользователь не найден"

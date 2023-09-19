@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Notifications: email Event: CHANGED_PASSWORD Notification with 'ru' locale works correctly 1`] = `
+{
+  "attachment": undefined,
+  "from": "Template <noreply@todo.com>",
+  "html": "<p>Вы получили это письмо, так как изменили пароль для входа в Template.</p><p>Если это были не вы, свяжитесь со службой поддержки: support@todo.com.</p><p>Если это были вы, ничего делать не нужно.</p>
+
+    <p>С уважением,<br />Template</p>",
+  "subject": "Ваш пароль был изменён",
+  "text": "Вы получили это письмо, так как изменили пароль для входа в Template.
+Если это были не вы, свяжитесь со службой поддержки: support@todo.com.
+Если это были вы, ничего делать не нужно.
+
+    С уважением,
+Template",
+  "to": "user@example.com",
+}
+`;
+
+exports[`Notifications: email Event: CHANGING_EMAIL Notification with 'ru' locale works correctly 1`] = `
+{
+  "attachment": undefined,
+  "from": "Template <noreply@todo.com>",
+  "html": "<p>Была предпринята попытка изменить адрес электронной почты в вашей учетной записи!</p><p>Чтобы завершить процесс изменения адреса электронной почты, <a href="http://localhost:3000/~/confirm/email/xxxyyy">нажмите сюда</a>.</p>
+
+    <p>С уважением,<br />Template</p>",
+  "subject": "Пожалуйста, подтвердите новый адрес электронной почты",
+  "text": "Была предпринята попытка изменить адрес электронной почты в вашей учетной записи!
+Чтобы завершить процесс изменения адреса электронной почты, перейдите по ссылке: http://localhost:3000/~/confirm/email/xxxyyy
+
+    С уважением,
+Template",
+  "to": "user@example.com",
+}
+`;
+
+exports[`Notifications: email Event: FORGOT_PASSWORD Notification with 'ru' locale works correctly 1`] = `
+{
+  "attachment": undefined,
+  "from": "Template <noreply@todo.com>",
+  "html": "<p>Вы получили это письмо, так как запросили восстановление пароля для входа в Template</p><p><a href="http://localhost:3000/~/forgot/password/change/xxxyyy">Нажмите сюда</a>, чтобы задать себе новый пароль.</p><p>Если это были не вы, просто проигнорируйте данное письмо.</p>
+
+    <p>С уважением,<br />Template</p>",
+  "subject": "Восстановление пароля",
+  "text": "Вы получили это письмо, так как запросили восстановление пароля для входа в Template
+Перейдите по ссылке, чтобы задать себе новый пароль: http://localhost:3000/~/forgot/password/change/xxxyyy
+Если это были не вы, просто проигнорируйте данное письмо.
+
+    С уважением,
+Template",
+  "to": "user@example.com",
+}
+`;
+
+exports[`Notifications: email Event: FORGOT_PASSWORD_CHANGE Notification with 'ru' locale works correctly 1`] = `
+{
+  "attachment": undefined,
+  "from": "Template <noreply@todo.com>",
+  "html": "<p>Вы получили это письмо, так как прошли процедуру восстановления и смены пароля для входа в Template</p><p>Если это были не вы, свяжитесь со службой поддержки: <a href="mailto:support@todo.com">support@todo.com</a></p><p>Если это были вы, ничего делать не нужно.</p>
+
+    <p>С уважением,<br />Template</p>",
+  "subject": "Ваш пароль был изменен",
+  "text": "Вы получили это письмо, так как прошли процедуру восстановления и смены пароля для входа в Template
+Если это были не вы, свяжитесь со службой поддержки: support@todo.com
+Если это были вы, ничего делать не нужно.
+
+    С уважением,
+Template",
+  "to": "user@example.com",
+}
+`;
+
+exports[`Notifications: email Event: SIGN_UP_EMAIL Notification with 'ru' locale works correctly 1`] = `
+{
+  "attachment": undefined,
+  "from": "Template <noreply@todo.com>",
+  "html": "<p>Благодарим вас за регистрацию!</p><p>Чтобы завершить процесс регистрации, <a href="http://localhost:3000/~/confirm/email/xxxyyy">нажмите сюда</a>.</p>
+
+    <p>С уважением,<br />Template</p>",
+  "subject": "Пожалуйста, подтвердите свой адрес электронной почты",
+  "text": "Благодарим вас за регистрацию!
+Чтобы завершить процесс регистрации, перейдите по ссылке: http://localhost:3000/~/confirm/email/xxxyyy
+
+    С уважением,
+Template",
+  "to": "user@example.com",
+}
+`;

@@ -1,0 +1,37 @@
+:root {
+  /* font size */
+  --fontSize-12: 12px;
+  --fontSize-14: 14px;
+  --fontSize-16: 16px;
+  --fontSize-24: 24px;
+  --fontSize-32: 32px;
+  --fontSize-48: 48px;
+
+  /* font weight */
+  --fontWeight-500: 500;
+  --fontWeight-600: 600;
+  --fontWeight-700: 700;
+
+  /* colors */
+  --lightRed-1: #bebebe;
+  --lightRed-2: #ea4335;
+
+  --red-1: rgb(236, 19, 11);
+
+  --darkRed-1: #444444;
+
+  --lightGreen-1: #a9aaa9;
+
+  --turquoise-1: rgb(7, 230, 63);
+
+  --lightBlue-1: #1677ff;
+
+  --blue-1: #3b5998;
+
+  --yellow-1: rgb(219, 190, 25);
+
+  --white-1: #e6e6e6;
+  --white-2: #ffffff;
+  --white-3: #ebebeb;
+  --white-4: #f7f6f6;
+}

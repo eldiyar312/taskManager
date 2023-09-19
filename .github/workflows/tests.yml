@@ -1,0 +1,59 @@
+name: Tests
+
+on:
+  push:
+    branches:
+      - develop
+  pull_request:
+    branches:
+      - main
+      - develop
+
+jobs:
+  test:
+    name: Test
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2-beta
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+
+      - name: Run global prettier check
+        run: yarn run prettier
+
+      - name: be-api/Run linter
+        working-directory: be-api
+        run: yarn run lint
+
+      - name: fe-web/Run linter
+        working-directory: fe-web
+        run: yarn run lint
+
+      - name: shared/Run linter
+        working-directory: shared
+        run: yarn run lint
+
+      - name: fe-web/Run typecheck
+        working-directory: fe-web
+        run: yarn run typecheck
+
+      - name: be-api/Run tests
+        working-directory: be-api
+        run: yarn run test
+
+      - name: fe-web/Run tests
+        working-directory: fe-web
+        run: yarn run test
+
+      - name: shared/Run tests
+        working-directory: shared
+        run: yarn run test
+
+      # - name: fe-web/Run tests for storybook
+      #   working-directory: fe-web
+      #   run: yarn run test:storybook
